@@ -94,7 +94,7 @@ This method is used to draw a line segment given to points on the screen.
 ```lua
 -- Parameters - Point1: Vector2, Point2: Vector2, Parent: Instance, Properties: table
 Gizmo2D.Line(Vector2.new(50, 50), Vector2.new(100, 100), SomeParent, {
-    Thickness = 2, number|nil
+    Thickness = 2, -- number|nil
     Fill = Color3.new(1, 1, 1), -- Color3|nil
     Stroke = Color3.new(1, 0, 0), -- Color3|nil
     StrokeWeight = 2 -- number|nil
@@ -108,7 +108,7 @@ This method is used to draw an arrow/vector given to points on the screen.
 ```lua
 -- Parameters - Point1: Vector2, Point2: Vector2, Parent: Instance, Properties: table
 Gizmo2D.Arrow(Vector2.new(50, 50), Vector2.new(100, 100), SomeParent, {
-    Thickness = 2, number|nil
+    Thickness = 2, -- number|nil
     Fill = Color3.new(1, 1, 1), -- Color3
 })
 ```

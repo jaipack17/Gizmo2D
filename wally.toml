@@ -1,0 +1,10 @@
+[package]
+name = "jaipack17/gizmo2d"
+description = "Visual Debugging library for GUIs on Roblox"
+authors = ["jaipack17"]
+version = "0.0.1"
+license = "MIT"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]

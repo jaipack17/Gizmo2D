@@ -1,0 +1,3 @@
+[tools]
+selene = { source = "Kampfkarren/selene", version = "x" }
+wally = { source = "UpliftGames/wally", version = "0.3.0" }

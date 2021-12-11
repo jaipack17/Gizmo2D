@@ -10,7 +10,8 @@ https://user-images.githubusercontent.com/74130881/145675560-f0537293-f495-4b63-
 
 ## Features
 
-The library provides you with the following visual debugging features.
+The library consists of the following visual debugging features.
+
 * Circles
 * Squares
 * Rectangles

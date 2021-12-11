@@ -50,7 +50,7 @@ export type Label = {
 	TextStroke: Color3?,
 	TextStrokeWeight: number?,
 	TextScaled: boolean?,
-	Font: EnumItem | string,
+	Font: EnumItem | string | nil,
 }
 
 return nil

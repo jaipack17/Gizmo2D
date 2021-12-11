@@ -195,9 +195,9 @@ function Gizmo2D.Label(position: Vector2, parent, properties: Types.Label)
 	Element.Size = UDim2.fromOffset(properties.Size.X, properties.Size.Y)
 	Element.Position = UDim2.fromOffset(position.X, position.Y)
 	Element.Text = properties.Text
-	Element.TextColor3 = properties.TextFill
-	Element.TextSize = properties.TextSize
-	Element.TextScaled = properties.TextScaled
+	Element.TextColor3 = properties.TextFill or DefaultColor
+	Element.TextSize = properties.TextSize or 14
+	Element.TextScaled = properties.TextScaled or false
 	Element.Font = properties.Font or Enum.Font.SourceSans
 	Element.Parent = parent
 	

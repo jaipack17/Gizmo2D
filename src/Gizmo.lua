@@ -118,9 +118,9 @@ function Gizmo2D.Triangle(point1: Vector2, point2: Vector2, point3: Vector2, par
 	
 	local s1Dot, s2Dot, s3Dot = s1:Dot(s1), s2:Dot(s2), s3:Dot(s3)
 	
-	if (s1Dot > s3Dot and s1Dot > s2Dot) then
+	if s1Dot > s3Dot and s1Dot > s2Dot then
 		point3, point1 = point1, point3
-	elseif (s3Dot > s2Dot and s3Dot > s1Dot) then
+	elseif s3Dot > s2Dot and s3Dot > s1Dot then
 		point1, point2 = point2, point1
 	end
 	

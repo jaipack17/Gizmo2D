@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Gizmo2D</h1>
-    <p>A 2 Dimensional Roblox Visual Debugging Library</p>
+    <p>A two-dimensional Roblox Visual Debugging Library</p>
 </div>
 <hr/>
 
